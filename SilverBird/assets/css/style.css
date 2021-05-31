@@ -456,6 +456,14 @@ body {
   box-shadow: 4px 2px #e74832;
 }
 
+.newsletter__link:hover {
+  left: 51%;
+  top: 111%;
+  background-color: #e74832;
+  color: white;
+  box-shadow: none;
+}
+
 .newsletter__link p {
   font-size: 16px;
   color: #003b5c;
@@ -464,6 +472,10 @@ body {
   position: absolute;
   left: 50%;
   transform: translate(-50%);
+}
+
+.newsletter__link:hover p {
+  color: white;
 }
 
 /* -------------------------------------------------- Footer -------------------------------------------------- */
@@ -597,6 +609,10 @@ body {
 
   .newsletter__link {
     top: 52%;
+  }
+
+  .newsletter__link:hover {
+    top: 53%;
   }
 
   .content__left .content__description {
