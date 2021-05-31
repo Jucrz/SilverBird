@@ -114,6 +114,10 @@ body {
   text-transform: uppercase;
 }
 
+.nav__link:hover {
+  color: #e74832;
+}
+
 .burger__menu {
   width: 50px;
   height: 25px;
