@@ -514,6 +514,14 @@ body {
   box-shadow: 4px 2px #e74832, 4px 2px 1px 1px white;
 }
 
+.footer__but:hover {
+  background-color: white;
+  color: #e74832;
+  top: 2px;
+  left: 4px;
+  box-shadow: none;
+}
+
 .footer__but p {
   width: 180px;
   height: 40px;
