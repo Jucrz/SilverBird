@@ -719,6 +719,10 @@ body {
     display: none;
   }
 
+  .footer__but {
+    display: none;
+  }
+
   .footer__link .follow__ico {
     justify-content: unset;
   }
