@@ -502,6 +502,25 @@ body {
   margin-top: 8%;
 }
 
+.footer__link a:hover {
+  color: #003b5c;
+}
+
+.footer__but {
+  width: 180px;
+  height: 40px;
+  border: solid 1px white;
+  position: relative;
+  box-shadow: 4px 2px #e74832, 4px 2px 1px 1px white;
+}
+
+.footer__but p {
+  width: 180px;
+  height: 40px;
+  position: absolute;
+  left: 25px;
+}
+
 .follow__ico {
   display: flex;
   justify-content: space-between;
